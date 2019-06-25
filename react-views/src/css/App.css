@@ -1,0 +1,201 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+html,body {    
+    width: 100vw;
+    height: 100vh;
+    min-width: 20vw;
+    max-width: 100vw;
+    overflow-x: hidden;
+}
+
+.notficationDiv {
+    
+    width: 100vw;
+    height: 50px;
+    text-align: center;
+    line-height: 40px;
+    font-size: 20px;
+    font-weight: 500;
+    background-color: antiquewhite;
+    
+}
+
+.loaderDiv {
+    
+  position: fixed;
+  display: block;
+  width: 100%;
+  height: 100%;
+  top: 0; 
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0,0,0,0.5);
+  z-index: 2;
+    
+}
+
+.loader {
+    width: 50px;
+    height: 50px;
+    margin-left: 45vw;
+    margin-top: 45vh;
+}
+
+.formDiv {
+    width: 100vw;
+    height: auto;
+    align-content: space-between;
+    margin-top: 50px;
+    
+    display: -webkit-box;
+    display: -ms-flexbox;  
+    display: -webkit-flex; 
+    display: flex;      
+    flex-wrap: wrap;
+    -webkit-box-pack: justify;
+    -webkit-justify-content: space-between;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+}
+
+.categoryForm {
+    
+    width: 35vw;
+    height: 140px;  
+    text-align: center;
+    margin: auto;
+    background-color: bisque;
+    
+}
+
+.productForm {
+    
+    width: 35vw;
+    height: 150px;
+    margin: auto;
+    margin: auto;
+    text-align: center;
+    background-color: lightblue;
+}
+
+.formContent1 {
+    margin-top: 30px;
+}
+
+.formContent {
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+}
+
+.formContent__input {    
+    display: block;    
+}
+
+.formContent__left {
+    display: block;
+    width: 35%;
+    text-align: left;
+}
+
+.formContent__submit {
+    cursor: pointer;
+    cursor: pointer;
+    appearance: none;
+    outline: 0;
+    border:1px solid black; 
+    border-radius: 5px;
+    min-width: 60px;
+    height: 30px;
+    margin-top: 20px;
+}
+
+select { 
+    appearance: none; 
+    outline: 0; 
+    background: lightblue;  
+    width: 150px; 
+    height: 50px; 
+    color: black; 
+    cursor: pointer; 
+    border:1px solid black; 
+    border-radius:3px;
+    float: right;
+    text-align-last:center;
+    margin: 50px 100px 00px 0px;
+} 
+
+.categoryFilterDiv {    
+    width: 100%;
+    margin-bottom: 120px;
+}
+
+.heading_text {
+    
+    font-size: 20px;
+    font-weight: 400;
+    margin-left: 30px;
+}
+
+.childCategoryDiv {
+    
+    width: 90vw;
+    height: auto;
+    display: flex;
+    flex-wrap: wrap;
+    margin: auto;
+    padding: 20px;
+    
+}
+
+.childCategory {
+    
+    appearance: none;
+    outline: 0;
+    border:1px solid black; 
+    border-radius: 5px;
+    min-width: 60px;
+    height: 50px;
+    margin: 20px;
+    cursor: pointer;
+}
+
+.productListDiv {
+    width: 90vw;
+    height: auto;
+    display: flex;
+    flex-wrap: wrap;
+    margin: auto;
+}
+
+.productDiv {
+    width: 150px;
+    height: 100px;
+    background-color: aquamarine;
+    margin: 20px 20px 0px 0px;
+    text-align: center;
+    display: flex;
+}
+
+.productDiv__left {
+    width: 85%;
+    height: inherit;
+    margin-top: 30px;
+}
+
+.productDiv__right {
+    width: 15%;
+    height: inherit;
+}
+
+.editButton:hover {
+    cursor: pointer
+}
